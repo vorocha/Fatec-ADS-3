@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Probabilidade</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/probabilidade.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="entradadedados">
+            <div class="logo2">
+                <img src="img/logo.png" width="110" height="100" alt="">
+            </div>
+            <div class="btnsprobabilidade">
+                <input type="button" id="btnuniforme" class="btnprobabilidade" value="Uniforme">
+                <input type="button" id="btnbinomial" class="btnprobabilidade" value="Binomial">
+                <input type="button" id="btnnormal" class="btnprobabilidade" value="Normal">
+            </div>
+        </div>
+        <div id="divuniforme" class="superdiv">
+            <label for="" class="textoprobabilidade">Distribuição uniforme</label>
+            <div style=" flex-wrap: wrap;justify-content: center; align-items: center;">
+                <div class="grupo1">
+                    <label for="" style="margin-top: 10px">Valor inicial</label>
+                    <input type="text" style="margin-top: 10px; height: 20px;
+                width: 150px;">
+                </div>
+                <div class="grupo2">
+                    <label for="" style="margin-top: 10px">Valor final</label>
+                    <input type="text" style="margin-top: 10px; height: 20px;
+                width: 150px;">
+                </div>
+                <div class="radioeuniforme">
+                    <input type="radio" name="radio" id="menorvalor" checked>
+                    <label for="populacao">Menor valor</label>
+                    <input type="radio" name="radio" id="maiorvalor">
+                    <label for="amostra">Maior valor</label>
+                    <input type="radio" name="radio" id="entre">
+                    <label for="amostra">Entre</label>
+                </div>
+            </div>
+            <label for="" class="textoprobabilidade" style="margin-top: 8px">Intervalo de valores</label>
+            <div class="grupo1">
+                <label for="" style="margin-top: 10px">De</label>
+                <input type="text" style="margin-top: 10px; height: 20px;
+            width: 150px;">
+            </div>
+            <div class="grupo2">
+                <label for="" style="margin-top: 10px">Até</label>
+                <input type="text" style="margin-top: 10px; height: 20px;
+            width: 150px;">
+            </div>
+            <div style="justify-content: center; display: flex; margin-top: 30px;">
+                <input type="button" id="btncalcular" value="Calcular">
+            </div>
+            <div class="divresposta" style="color: white;text-align: center; margin-top: 65px;">
+                <p> Desvio Padrão = 0.00 </p>
+                <p>Variância= 0.00</p> 
+                <p>NaN</p> 
+                <p>Probabilidade = NaN %</p> 
+            </div>
+        </div>
+
+        <div id="divbinomial" class="superdiv">
+            <label for="" class="textoprobabilidade">Distribuição binomial</label>
+        </div>
+
+        <div id="divnormal" class="superdiv">
+            <label for="" class="textoprobabilidade">Distribuição normal</label>
+        </div>
+
+    </div>
+    
+</body>
+
+</html>

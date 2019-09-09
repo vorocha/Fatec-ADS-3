@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" window.top="ie=edge">
+    <title>Estatística descritiva</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <!-- **************************************************** -->
+    <script src="js/descritivadiv.js"></script>
+    <!-- **************************************************** -->
+</head>
+
+<body>
+    <div class="container2">
+
+        <div class="entradadedados">
+            <div class="logo2">
+                <img src="img/logo.png" width="110" height="100" alt="">
+            </div>
+            <div class="btnsimportar">
+                <input type="button" id="btndigitardados" class="btnimportar" value="ENTRAR COM DADOS">
+                <input type="button" id="btnimportar" class="btnimportar" value="IMPORTAR (.CSV)">
+            </div>
+        </div>
+
+        <div id="digitardados" class="superdiv">
+            <input type="text" class="importarnomevariavel" placeholder="Digite o nome da variável">
+            <input type="text" class="importarvaloresestatisticadescritiva"
+                placeholder="Digite os valores separados por vírgula ' ; '">
+            <div class="radioestatisticadescritiva">
+                <input type="radio" name="radio" id="populacao" checked>
+                <label for="populacao">População</label>
+                <input type="radio" name="radio" id="amostra">
+                <label for="amostra">Amostra</label>
+            </div>
+            <div class="medidasseparatrizes">
+                <div class="labelmedidasseparatrizes">MEDIDAS SEPARATRIZES</div>
+                <div>
+                    <select id=cbPais class="selecaomedidasseparatrizes">
+                        <option>Quartil</option>
+                        <option>Quintil</option>
+                        <option>Decil</option>
+                        <option>Porcentil</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="number" class="medidasseparatrizesvalores" placeholder="1">
+                </div>
+                <div>
+                    <input type="button" value="Calcular" class="btncalcularmedidasseparatrizes">
+                </div>
+            </div>
+        </div>
+
+        <!-- **************************************************** -->
+        <div id="importarcsv" class="superdiv">
+            <input type="text" class="importarnomevariavel" placeholder="Digite o nome da variável">
+            <!-- <input type="text" class="importarvaloresestatisticadescritiva" placeholder=" ' ; '"> -->
+            <div class="radioestatisticadescritiva">
+                <input type="radio" name="radio" id="populacao" checked>
+                <label for="populacao">População</label>
+                <input type="radio" name="radio" id="amostra">
+                <label for="amostra">Amostra</label>
+            </div>
+            <div class="medidasseparatrizes">
+                <div class="labelmedidasseparatrizes">MEDIDAS SEPARATRIZES</div>
+                <div>
+                    <select id=cbPais class="selecaomedidasseparatrizes">
+                        <option>Quartil</option>
+                        <option>Quintil</option>
+                        <option>Decil</option>
+                        <option>Porcentil</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="number" class="medidasseparatrizesvalores" placeholder="1">
+                </div>
+                <div class="import">
+                    <label class="labelimportar">Importar (.CSV)</label>
+                    <div>
+                        <input type="file" style="padding: 15px">
+                    </div>
+                </div>
+                <div>
+                    <input type="button" value="Importar" class="btncalcularmedidasseparatrizes">
+                </div>
+            </div>
+        </div>
+        <!-- **************************************************** -->
+
+        <footer>
+            &copy;EVOLUTION SISTEMAS
+        </footer>
+    </div>
+    <script>
+
+    </script>
+</body>
+
+</html>

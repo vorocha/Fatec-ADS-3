@@ -1,0 +1,453 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  font-family: "Comfortaa", sans-serif;
+  background: #000;
+}
+
+footer {
+  padding-bottom: 5px;
+  padding-top: 6px;
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 0;
+  /* margin-left: 46%; */
+}
+
+.login {
+  width: 320px;
+  height: 450px;
+  border: 2px solid #000;
+  border-radius: 80px 0px 80px 0px;
+  color: #fff;
+  background-color: rgba(0, 0, 5, 0.595);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 68px 28px;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 16px;
+}
+
+.logincopy {
+  width: 320px;
+  height: 450px;
+  border: 2px solid #000;
+  border-radius: 80px 0px 80px 0px;
+  color: #fff;
+  background-color: rgba(0, 0, 5, 0.595);
+  top: 50%;
+  /* left: 65%; ***comenta aqui*** */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 68px 28px;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 16px;
+  margin-left: 570px;
+}
+
+.usuario {
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 112px;
+}
+
+.h1 {
+  margin: 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 20px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+}
+
+.login p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.login input {
+  width: 100%;
+  margin-bottom: 21px;
+}
+
+.login input[type="text"], input[type="password"] {
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+}
+
+.login input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 35px;
+  color: #000;
+  background: #fff;
+  border-radius: 20px;
+  transition: 0.2s;
+  font-size: 25px;
+}
+
+.login input[type="submit"]:hover {
+  cursor: pointer;
+  background: #005374;
+  color: white;
+  transition: 0.2s;
+}
+
+.login a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: #4b4b4b;
+  transition: 0.2s;
+}
+
+.login p {
+  text-align: left;
+}
+
+.login a:hover {
+  transition: 0.2s;
+  color: #ff4d4d;
+}
+
+.container1 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-135deg, rgb(45, 36, 97), purple, rgb(2, 0, 141));
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  background: linear-gradient(-135deg, rgb(45, 36, 97), purple, rgb(2, 0, 141));
+}
+
+.container2 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  /* align-items: center; */
+  background: linear-gradient(-135deg, rgb(45, 36, 97), purple, rgb(2, 0, 141));
+}
+
+.menu {
+  width: 100%;
+  color: #fff;
+  font-size: 13px;
+  background: #005374;
+  position: absolute;
+  top: 0;
+  height: 15px;
+  padding: 10px 0px 10px 0px;
+  text-align: end;
+}
+
+.menu:hover {
+  color: #fff;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(20, 0, 109)
+}
+
+.res {
+  text-align: center;
+  height: 30px;
+  font-size: 15px;
+  color: #ff4d4d;
+}
+
+.menusuperior {
+  width: 100%;
+  height: 50px;
+  /* background: #005374; */
+  top: 0;
+  position: absolute;
+  text-align: center;
+  margin-top: 100px;
+  margin-top: 530px;
+}
+
+.tipos {
+  border-radius: 10px;
+  height: 35px;
+  background: black;
+  color: white;
+  border: none;
+  margin-top: 7px;
+  margin-right: 10px;
+  width: 185px;
+}
+
+.tipos:hover {
+  background: rgb(9, 0, 51);
+}
+
+.entradadedados {
+  background: rgba(18, 9, 64, 0.94);
+  width: 100%;
+  height: 110px;
+  position: absolute;
+}
+
+.dados {
+  padding: 7px;
+  margin-left: 21px;
+  border: none;
+  width: 130px;
+  border-radius: 3px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.btnimportar {
+  padding: 7px;
+  margin-left: 21px;
+  border: none;
+  width: 150px;
+  border-radius: 3px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.btnimportar:hover {
+  background: rgb(68, 0, 255);
+  color: white;
+}
+
+.login10 {
+  width: 750px;
+  height: 600px;
+  background: white;
+  border-radius: 80px 0px 80px 0px;
+}
+
+.pic {
+  margin-top: 145px;
+  margin-left: 15px;
+}
+
+.logo {
+  margin-top: 180px;
+}
+
+.logo2 {
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 12%;
+}
+
+.alinhartexto {
+  color: white;
+  background: #0000009e;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px;
+  width: 90%;
+}
+
+.contato {
+  color: white;
+  background: #0000009e;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px;
+  width: 90%;
+}
+
+.entradamanual {
+  width: 700px;
+  height: 35px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+  /* margin-left: 26%; */
+}
+
+.btnsimportar {
+  width: 366px;
+  margin-left: auto;
+  margin-top: -72px;
+}
+
+.superdiv {
+  background: #000000ab;
+  height: 650px;
+  width: 540px;
+  margin-top: 215px;
+  border-radius: 80px 0px;
+}
+
+.importarnomevariavel {
+  margin-left: 29%;
+  margin-top: 50px;
+  width: 250px;
+  height: 25px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+}
+
+.importarvaloresestatisticadescritiva {
+  margin-left: 9%;
+  margin-top: 35px;
+  width: 450px;
+  height: 25px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+}
+
+.radioestatisticadescritiva {
+  color: white;
+  margin-left: 33%;
+  margin-top: 50px;
+}
+
+.medidasseparatrizes {
+  border-top: 1px solid white;
+  margin-top: 50px;
+  width: 500px;
+  margin-left: 4%;
+}
+
+.labelmedidasseparatrizes {
+  color: white;
+  margin-left: 29%;
+  margin-top: 50px;
+}
+
+.selecaomedidasseparatrizes {
+  margin-left: 36%;
+  margin-top: 50px;
+  width: 135px;
+  font-size: 17px;
+}
+
+.medidasseparatrizesvalores {
+  margin-left: 35%;
+  margin-top: 50px;
+  width: 137px;
+  font-size: 17px;
+}
+
+.btncalcularmedidasseparatrizes {
+  font-size: 17px;
+  width: 125px;
+  margin-left: 37%;
+  margin-top: 50px;
+}
+
+.escondido {
+  display: none;
+}
+
+.import {
+  background: #fff;
+  width: 425px;
+  height: 60px;
+  margin-top: 25px;
+  margin-left: 27px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 0px 35px;
+}
+
+.labelimportar {
+  margin-top: 10px;
+}
+
+.btnprobabilidade {
+  padding: 7px;
+  margin-left: 21px;
+  border: none;
+  width: 150px;
+  border-radius: 3px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.btnprobabilidade:hover {
+  background: rgb(68, 0, 255);
+  color: white;
+}
+
+.btnsprobabilidade {
+  width: 550px;
+  margin-left: auto;
+  margin-top: -72px;
+}
+
+.textoprobabilidade {
+  color: #fff;
+  min-height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grupo1 {
+  width: 178px;
+  height: 70px;
+  color: white;
+  text-align: center;
+  margin-left: 75px;
+}
+
+.grupo2 {
+  width: 180px;
+  height: 70px;
+  color: white;
+  text-align: center;
+  margin-left: 282px;
+  margin-top: -70px;
+}
+
+.radioeuniforme {
+  color: white;
+  margin-left: 20%;
+  margin-top: 7px;
+}

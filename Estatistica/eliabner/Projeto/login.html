@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" type="image/png" href="img/icons/favicon.ico" />
+
+
+    <style type="text/css">
+        a:link {
+            text-decoration: none;
+            padding: 10px;
+            transform-origin: 50% 50%
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <a href="sobrenos.html">SOBRE NÓS</a>|<a href="contato.html">CONTATO</a>
+        </div>
+        <div class="login">
+            <img src="img/usuario.png" class="usuario" width="100" height="100" alt="">
+            <h1>Login</h1>
+            <form>
+                <p>Usuario</p>
+                <input type="text" name="usuario" placeholder="Insira seu nome de usuário">
+                <p>Senha</p>
+                <input type="password" name="password" placeholder="Insira sua senha">
+                <input type="submit" name="" value="Login" onclick="logar()">
+                <div class="res" id="res">resultado</div>
+                <a href="#">Esqueceu sua senha?</a><br>
+                <a href="#">Ainda não possui uma conta?</a>
+            </form>
+        </div>
+
+        <footer>
+            &copy;EVOLUTION SISTEMAS
+        </footer>
+    </div>
+</body>
+
+<script>
+
+    function logar() {
+        window.location = "inicio.html";
+
+        /* var log = window.document.querySelector("[name='usuario']").value
+        var sen = window.document.querySelector("[name='password']").value
+
+        if (log == "" || sen == "") {
+            document.getElementById('res').innerHTML = 'PREENCHA OS CAMPOS!'
+            window.alert('PREENCHA OS CAMPOS!')
+        } else if (log != "123" || sen != "123") {
+            document.getElementById('res').innerHTML = 'LOGIN OU SENHA INVÁLIDOS!'
+            window.alert('LOGIN OU SENHA INVÁLIDOS!')
+        } else {
+            window.location = ('inicio.html')
+        } */
+    }
+
+</script>
+
+</html>

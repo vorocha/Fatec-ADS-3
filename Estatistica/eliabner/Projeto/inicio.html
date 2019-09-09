@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" window.top="ie=edge">
+    <title>Início</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="menusuperior">
+            <div>
+                <input type="button" name="estatisticadescritiva" class="tipos" 
+                value="ESTATÍSTICA DESCRITIVA" onclick="descritiva()">
+                <input type="button" name="probabilidade" class="tipos" value="PROBABILIDADE"
+                onclick="probabilidade()">
+                <input type="button" name="correlacao" class="tipos" value="CORRELAÇÂO">
+            </div>
+        </div>
+        <footer>
+            &copy;EVOLUTION SISTEMAS
+        </footer>
+    </div>
+</body>
+<script>
+    
+    function descritiva() {
+        window.location = ('descritiva.html')
+    }
+
+    function probabilidade() {
+        window.location = ("probabilidade.html")
+    }
+
+</script>
+
+</html>
